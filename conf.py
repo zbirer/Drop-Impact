@@ -1,0 +1,1 @@
+IMAGEMAGICK_BINARY = r"/opt/ImageMagick/bin/convert"
