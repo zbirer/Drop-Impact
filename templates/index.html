@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Creator</title>
+</head>
+<body>
+    <h1>Upload Your Files</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="image">Upload an Image:</label>
+        <input type="file" name="image" accept="image/*" required><br>
+
+        <label for="video">Upload a Video Clip:</label>
+        <input type="file" name="video" accept="video/*" required><br>
+
+        <label for="videoText">Text for Video Clip:</label>
+        <textarea name="videoText" required></textarea><br>
+
+        <label for="secondImage">Upload a Second Image:</label>
+        <input type="file" name="secondImage" accept="image/*" required><br>
+
+        <label for="secondImageText">Text for Second Image:</label>
+        <textarea name="secondImageText" required></textarea><br>
+
+        <input type="submit" value="Create Videos">
+    </form>
+</body>
+</html>
